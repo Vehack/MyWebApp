@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <form style="display: flex; align-items: center; flex-direction: column;" action="login" method="post" >
+        <p style="padding: 20px;">
+            <label style = 'padding-right: 20px;' for="username">Логин</label>
+	        <input style = 'outline:none;' class = 'bg-dark text-white' type="text" name="username">
+        </p>
+        <p style="padding: 20px;">
+            <label style="padding-right: 10px;" for="password">Пароль</label>
+            <input style = 'outline:none;' class = 'bg-dark text-white' type="password" name="password">
+        </p>
+        <p>
+            <input style="margin-right: 30px" type="submit" value="Login" name="login">
+            <input type="submit" value="Registration" name="registration">
+        </p>
+
+
+    <div>
+		<h3>{{ attention }}</h3>
+	</div>
+    </form>
+
+
+
+</body>
+</html>

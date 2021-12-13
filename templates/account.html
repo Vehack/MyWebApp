@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title >Your account</title>
+
+</head>
+<body>
+    <form style="display: flex; align-items: center; flex-direction: column;" action="" method="post">
+        {% if full_name %}
+        <h1>  Hello, {{full_name}}! </h1>
+        <p>You login is {{login}}.</p>
+        <p>You password is {{password}}.</p>
+        {% endif %}
+
+    </form>
+
+</body>
+</html>
